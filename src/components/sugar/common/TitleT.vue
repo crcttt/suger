@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul class="titleT"  >
-      <li><router-link  to="/index">推荐</router-link></li>
+      <li><router-link  to="/">推荐</router-link></li>
       <li><router-link to="/RankingList">排行榜</router-link></li>
       <li><router-link to="/SingerPage">歌手</router-link></li>
       <li><router-link to="/songlist">歌单</router-link></li>

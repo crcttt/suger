@@ -24,25 +24,84 @@ import RankingList from "./components/sugar/common/RankingList.vue"
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-  {path:'/index',name:'index',component:Index},
-  {path:'/titlebar',name:'titlebar',component:TitleBar},
-  {path:'/asidebar',component:AsideBar},
-  {path:'/footerbar',component:FooterBar},
-  {path:'/recommen',component:Recommen},
-  {path:'/songsearch',name:'songslists',component:SongSearch},
-  {path:'/ranking',component:Ranking},
-  {path:'/listenmusic',component:ListenMusic},
-  {path:'/sugarbox',component:SugarBox},
-  {path:'/login',component:Login},
-  {path:"/child",component:Child},
-  {path:"/parent",component:Parent},
-  {path:"/childt",component:ChildT},
-  {path:"/parentt",component:ParentT},
-  {path:"/childref",component:Childref},
-  {path:"/parentref",component:Parentref},
-  {path:"/songlist",component:Songlist},
-  {path:"/singerpage",component:SingerPage},
-  {path:"/rankinglist",component:RankingList},
+  routes: [{
+      path: '/',
+      name: 'index',
+      component: Index
+    },
+    {
+      path: '/titlebar',
+      name: 'titlebar',
+      component: TitleBar
+    },
+    {
+      path: '/asidebar',
+      component: AsideBar
+    },
+    {
+      path: '/footerbar',
+      component: FooterBar
+    },
+    {
+      path: '/recommen',
+      component: Recommen
+    },
+    {
+      path: '/songsearch',
+      name: 'songslists',
+      component: SongSearch
+    },
+    {
+      path: '/ranking',
+      component: Ranking
+    },
+    {
+      path: '/listenmusic',
+      component: ListenMusic
+    },
+    {
+      path: '/sugarbox',
+      component: SugarBox
+    },
+    {
+      path: '/login',
+      component: Login
+    },
+    {
+      path: "/child",
+      component: Child
+    },
+    {
+      path: "/parent",
+      component: Parent
+    },
+    {
+      path: "/childt",
+      component: ChildT
+    },
+    {
+      path: "/parentt",
+      component: ParentT
+    },
+    {
+      path: "/childref",
+      component: Childref
+    },
+    {
+      path: "/parentref",
+      component: Parentref
+    },
+    {
+      path: "/songlist",
+      component: Songlist
+    },
+    {
+      path: "/singerpage",
+      component: SingerPage
+    },
+    {
+      path: "/rankinglist",
+      component: RankingList
+    },
   ]
 })
